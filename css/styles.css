@@ -9,6 +9,8 @@ Colores
 Fuente de la página
   https://fonts.google.com/specimen/Karla
   Estilos 200 y 400
+    font-family: 'Karla', sans-serif;
+
 */
 
 * {
@@ -18,6 +20,7 @@ Fuente de la página
 body {
     background-color: hsl(0, 0%, 90%);
 }
+
 
 .bg{
     position: absolute;
@@ -32,4 +35,28 @@ body {
     width: 75%;
     right: 0;
     bottom: 0;
+}
+
+.main-container{
+    padding-left: 2%;
+}
+
+.header{
+    position: absolute;
+    width: 30%;
+    top: 26%;  
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.title{
+    width: 90%;
+    margin: 0;
+    margin-bottom: 7%;
+    font-size: 305%;
+    color: hsl(300, 43%, 22%);
+}
+
+.purple-font{
+    color: hsl(303, 10%, 53%);
 }
