@@ -45,6 +45,7 @@ body {
     position: absolute;
     width: 30%;
     top: 26%;  
+    border: 1px solid black;
     font-family: 'Karla', sans-serif;
     
 }
@@ -60,3 +61,46 @@ body {
 .purple-font{
     color: hsl(303, 10%, 53%);
 }
+
+.aside{
+    position: absolute;
+    width: 31%; 
+    right: 13%;
+    top: 28%;   
+}
+
+.rating-card{
+    position: relative;
+    display:flex;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 4%;
+    margin-bottom: 4%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    border-radius: 0.7vw;
+    background-color: hsl(300, 24%, 96%);  
+}
+
+.container-card-stars{
+    width: 33%;
+    padding-top: 4.7%;
+    margin-left: 4%;
+    margin-right: 5%;  
+}
+
+.star{  
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.card-2{
+    left: 5%;
+}
+
+.card-3{
+    left: 15%;
+}
+
+
